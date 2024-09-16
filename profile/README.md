@@ -5,8 +5,11 @@ Master's thesis examples
 This repository contains the code examples used in the master's thesis titled "Arhitekturni vzorci v mikrostoritvenih sistemih" (Architectural Patterns in Microservice Systems). The projects demonstrate various microservice arhitectural patterns and communication protocols discussed in the thesis.
 
 For analysis purposes, the system implements duplicate operations: one exposed via a REST API, and the other through event publishing to Kafka. This allows for a comparison between event-driven architecture (EDA) and a traditional synchronous flow. The diagrams below illustrate both approaches:
-![Synchronous, RESTfull Flow](../images/synchronous-flow.png)
 
+#### Synchronous, RESTfull Flow
+![Synchronous, RESTfull Flow](../images/synchronous-flow.jpg)
+
+#### Asynchronous, Event-driven Flow
 ![Asynchronous, Event-driven Flow](../images/eda-flow.png)
 
 ## Services
